@@ -64,3 +64,99 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.container{
+	width:1000px;
+	margin: 0 auto;
+	background-color: lightgrey;
+}
+header{
+	margin:0px 0px 60px 0px;
+	text-align:center;
+	width: 100%;
+	padding: 10px 0px;
+	position: fixed;
+	background-color:navy;
+}
+#nav-menu, #navlogo{
+	display:inline-block;
+	vertical-align: middle;
+}
+#nav-menu{
+	padding: 0px 100px 0px 0px;
+	margin: 0px;
+}
+nav a{
+	padding:30px;
+	color:white;
+	text-decoration: none;
+}
+#section1{
+	width:100%;
+	padding: 10px opx;
+	text-align: center;
+	margin: 0px 0px 100px 0px;
+}
+#subsect, #secondlogo{
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 100px;
+	
+}
+#subsect{
+	font-size: 75px;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+#button1{
+	padding: 10px 40px;
+	margin: 0px;
+	background-color: navy;
+	border: 1px black solid;
+	color:white;
+}
+#button1:hover{
+	background-color: white;
+	color: blue;
+}
+#big{
+	padding:0px;
+	margin: 0px;
+}
+
+.rapping{
+	width:100%;
+	vertical-align: middle;
+}
+.section1{
+	display: inline-block;
+	text-align: left;
+	max-width: 49%;
+	margin: 0px 5px 25px 0px;
+}
+.section2{
+	display: inline-block;
+	text-align: left;
+	max-width: 31%;
+	margin: 25px 0px 25px 0px;
+}
+.rapping img{
+	width: 100%;
+	padding: 10px;
+}
+footer{
+	margin: 35px 0px 0px 0px;
+}
+#copy{
+	text-align:center;
+}
+footer a{
+	text-decoration: none;
+	color: black;
+}
+footer a:hover, footer a:active{
+	color:black;
+	background-color: white;
+}
+
+
